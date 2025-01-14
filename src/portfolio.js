@@ -292,7 +292,7 @@ const achievementSection = {
         }
     ],
     display: true // Set false to hide this section, defaults to true
-};s
+};
 
 // Blogs Section
 
