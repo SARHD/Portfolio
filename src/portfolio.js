@@ -25,7 +25,7 @@ const greeting = {
     subTitle: emoji(
         "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Wordpress Shopify, PHP, Laravel, JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
     ),
-    resumeLink: "https://drive.google.com/file/d/1h_eJZghCeHHYonI1rRlvVR7Vy1P8lPsI/view?usp=drive_link", // Set to empty to hide the button
+    resumeLink: "https://drive.google.com/file/d/1rUNbyW37sCxJZJ0VO4iTFEzrViP2q0Id/view?usp=sharing", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -127,10 +127,10 @@ const educationInfo = {
             logo: require("./assets/images/university-of-management-and-technology-logo-1BBBD77558-seeklogo.com.png"),
             subHeader: "Bachelors of Science in Computer Science",
             duration: "Fall 2017 - 2021",
-            desc: "Participated in the research of XXX and published 3 papers.",
+            desc: "Participated in the research of Networking with CISCO and published 3 papers.",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "CCNA Certified RedHat Linux For Routing and Switching",
+                "CISCO RedHat Ethical Hacking with Linux"
             ]
         },
         {
@@ -138,8 +138,8 @@ const educationInfo = {
             logo: require("./assets/images/images.jpeg"),
             subHeader: "Masters of Science in Computer Science",
             duration: "Spring 2022 - 2024",
-            desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            desc: "AI in Daily Life program. Took courses about Software Engineering, Web Security, Operating Systems, Machine Learning",
+            descBullets: ["Worked on Python for Diverse Daily Life AI usages and how to improve them."]
         }
     ]
 };
