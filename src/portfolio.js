@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-    username: "SHAli Raza Haider",
+    username: "Ali Raza Haider",
     title: "Hi all, I'm Ali Raza",
     subTitle: emoji(
         "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Wordpress Shopify, PHP, Laravel, JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
