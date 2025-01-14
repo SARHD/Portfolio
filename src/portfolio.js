@@ -241,7 +241,14 @@ const workExperiences = {
             role: "Co-founder / Website Developer",
             company: "Nova Nest Systems PVT LTD",
             companylogo: require("./assets/images/pixtor-logo.png"),
-            date: "March 2013 – September 2024",
+            date: "2022 – 2024",
+            desc: "Co-founder and Website developer at Company"
+        },
+        {
+            role: "Intern Game Developer",
+            company: "MashTech GAMES",
+            companylogo: require("./assets/images/pixtor-logo.png"),
+            date: "June 2017 – September 2017",
             desc: "Co-founder and Website developer at Company"
         }
     ]
