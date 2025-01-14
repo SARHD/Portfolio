@@ -190,41 +190,49 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
-    experience: [{
-            role: "Senior Full Stack Developer",
-            company: "Broadway City UK",
+    display: true, // Set it to true to show workExperiences Section
+    experience: [
+        {
+            role: "Website Developer",
+            company: "Broadway City Gwadar",
             companylogo: require("./assets/images/gwadar-logo.png"),
-            date: "Nov 2023 , Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            date: "September 2024 – Present",
+            desc: "Developing and maintaining robust and scalable websites. Ensuring seamless performance of websites through testing and optimization. Custom theme and plugin development and functionality manipulation."
         },
         {
-            role: "Web Developer",
-            company: "Barontech Private limited",
+            role: "Full-Stack Developer",
+            company: "Astute Solutions",
+            companylogo: require("./assets/images/astute-logo.png"),
+            date: "September 2023 – September 2024",
+            desc: "Created full-stack solutions for diverse projects. Collaborated with teams to deliver efficient web applications. Worked on multiple international projects simultaneously."
+        },
+        {
+            role: "Website Developer",
+            company: "BaronTech PVT LTD",
             companylogo: require("./assets/images/barontech.webp"),
-            date: "Dec 2022 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            date: "June 2021 – Present",
+            desc: "Worked with team on multiple projects and worked on B2B projects individually. Collaborated with teams to deliver efficient web applications. Worked on multiple C2C projects.",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Took Technical (Front-End) Assessments and Interviews for the Company for international B2B and C2C project gain."
             ]
         },
         {
-            role: "Front-End Developer",
-            company: "Pixellete Technologies Inc",
-            companylogo: require("./assets/images/Pixelette-Logo-06.png"),
-            date: "June 2022 – Nov 2022",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Website Developer",
+            company: "Inovation.io",
+            companylogo: require("./assets/images/inovation-logo.png"),
+            date: "September 2020 – October 2021",
+            desc: "Designed dynamic, interactive websites. Enhanced website functionalities for improved user engagement."
         },
         {
-            role: "Software Engineer Intern",
-            company: "Rapid Fire Solutions",
-            companylogo: require("./assets/images/final-logo.png"),
-            date: "Dec 2019 – March 2020",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Website Developer",
+            company: "Pixtor",
+            companylogo: require("./assets/images/pixtor-logo.png"),
+            date: "March 2019 – September 2020",
+            desc: "Gained hands-on experience with CMS platforms and dynamic coding. Worked with SQL and CodeIgniter for CRUD operations."
         }
     ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
