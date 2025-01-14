@@ -236,6 +236,13 @@ const workExperiences = {
             companylogo: require("./assets/images/pixtor-logo.png"),
             date: "2017 – 2025",
             desc: "Gained Additional Experience in C2C and B2B platform and aquired work form the freelancing platform for additional growth in terms of learning and career building."
+        },
+        {
+            role: "Co-founder / Website Developer",
+            company: "Nova Nest Systems PVT LTD",
+            companylogo: require("./assets/images/pixtor-logo.png"),
+            date: "March 2013 – September 2024",
+            desc: "Co-founder and Website developer at Company"
         }
     ]
 };
