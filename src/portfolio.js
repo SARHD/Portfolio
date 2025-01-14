@@ -122,7 +122,30 @@ https://fontawesome.com/icons?d=gallery */
 
 const educationInfo = {
     display: true, // Set false to hide this section, defaults to true
-    schools: [{
+    schools: [
+        {
+            schoolName: "BeaconHouse School System",
+            logo: require("./assets/images/beaconhouse.jpg"),
+            subHeader: "Matriculation in Computer Science",
+            duration: "2005 - 2015",
+            desc: "Participated in Junior Computer scientist",
+            // descBullets: [
+            //     "CCNA Certified RedHat Linux For Routing and Switching",
+            //     "CISCO RedHat Ethical Hacking with Linux"
+            // ]
+        },
+        {
+            schoolName: "Crescent Model High Secondary School",
+            logo: require("./assets/images/crescent.png"),
+            subHeader: "Intermediate in Computer Science",
+            duration: "Fall 2015 - 2017",
+            desc: "Participated in Junior Computer scientist",
+            // descBullets: [
+            //     "CCNA Certified RedHat Linux For Routing and Switching",
+            //     "CISCO RedHat Ethical Hacking with Linux"
+            // ]
+        },
+        {
             schoolName: "University of Managment And Technology",
             logo: require("./assets/images/university-of-management-and-technology-logo-1BBBD77558-seeklogo.com.png"),
             subHeader: "Bachelors of Science in Computer Science",
