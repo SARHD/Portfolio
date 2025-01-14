@@ -128,7 +128,7 @@ const educationInfo = {
             logo: require("./assets/images/beaconhouse.jpg"),
             subHeader: "Matriculation in Computer Science",
             duration: "2005 - 2015",
-            desc: "Participated in Junior Computer scientist",
+            desc: "Inter School IT Competition",
             // descBullets: [
             //     "CCNA Certified RedHat Linux For Routing and Switching",
             //     "CISCO RedHat Ethical Hacking with Linux"
