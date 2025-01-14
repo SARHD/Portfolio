@@ -229,6 +229,13 @@ const workExperiences = {
             companylogo: require("./assets/images/pixtor-logo.png"),
             date: "March 2019 – September 2020",
             desc: "Gained hands-on experience with CMS platforms and dynamic coding. Worked with SQL and CodeIgniter for CRUD operations."
+        },
+        {
+            role: "Website Developer",
+            company: "Upwork",
+            companylogo: require("./assets/images/pixtor-logo.png"),
+            date: "2017 – 2025",
+            desc: "Gained Additional Experience in C2C and B2B platform and aquired work form the freelancing platform for additional growth in terms of learning and career building."
         }
     ]
 };
