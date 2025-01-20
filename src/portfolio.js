@@ -196,7 +196,7 @@ const workExperiences = {
             role: "Website Developer",
             company: "Broadway City Gwadar",
             companylogo: require("./assets/images/gwadar-logo.png"),
-            date: "September 2024 – Present",
+            date: "September 2024 – January 2025",
             desc: "Developing and maintaining robust and scalable websites. Ensuring seamless performance of websites through testing and optimization. Custom theme and plugin development and functionality manipulation."
         },
         {
