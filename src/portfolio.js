@@ -219,35 +219,35 @@ const workExperiences = {
         {
             role: "Website Developer",
             company: "Inovation.io",
-            companylogo: require("./assets/images/inovation-logo.png"),
+            companylogo: require("./assets/images/innovationio.png"),
             date: "September 2020 – October 2021",
             desc: "Designed dynamic, interactive websites. Enhanced website functionalities for improved user engagement."
         },
         {
             role: "Website Developer",
             company: "Pixtor",
-            companylogo: require("./assets/images/pixtor-logo.png"),
+            companylogo: require("./assets/images/pixtor.png"),
             date: "March 2019 – September 2020",
             desc: "Gained hands-on experience with CMS platforms and dynamic coding. Worked with SQL and CodeIgniter for CRUD operations."
         },
         {
             role: "Website Developer",
             company: "Upwork",
-            companylogo: require("./assets/images/pixtor-logo.png"),
+            companylogo: require("./assets/images/upwork.png"),
             date: "2017 – 2025",
             desc: "Gained Additional Experience in C2C and B2B platform and aquired work form the freelancing platform for additional growth in terms of learning and career building."
         },
         {
             role: "Co-founder / Website Developer",
             company: "Nova Nest Systems PVT LTD",
-            companylogo: require("./assets/images/pixtor-logo.png"),
+            companylogo: require("./assets/images/novanest.png"),
             date: "2022 – 2024",
             desc: "Co-founder and Website developer at Company"
         },
         {
             role: "Intern Game Developer",
             company: "MashTech GAMES",
-            companylogo: require("./assets/images/pixtor-logo.png"),
+            companylogo: require("./assets/images/mashtech.png"),
             date: "June 2017 – September 2017",
             desc: "Co-founder and Website developer at Company"
         }
