@@ -95,12 +95,8 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-npm"
         },
         {
-            skillName: "Express",
-            fontAwesomeClassname: "fab fa-express"
-        },
-        {
             skillName: "EJS",
-            fontAwesomeClassname: "fab fa-ejs"
+            fontAwesomeClassname: "fab fa-vuejs"
         },
         {
             skillName: "SQL",
