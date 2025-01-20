@@ -319,7 +319,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/herbis.png"),
+            image: require("./assets/images/bloomspace.webp"),
             projectName: "Bloomspace warehouse",
             projectDesc: "Created the website from start to finish singlehandedly and mate the business up and running.",
             footerLink: [{
