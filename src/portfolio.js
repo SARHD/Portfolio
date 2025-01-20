@@ -329,9 +329,29 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
+            image: require("./assets/images/bloomspace.webp"),
+            projectName: "DYIMS",
+            projectDesc: "Created the educationl managment system with its Moodle and cericulam and course enrolment services.",
+            footerLink: [{
+                    name: "DYIMS",
+                    url: "https://dyims.edu.pk/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/herbis.png"),
+            projectName: "Arkaki",
+            projectDesc: "Assisted in helping this website get better results on speed optmization and fix website design layout and addded new functionality to the existing site added some extra security features to the site.",
+            footerLink: [{
+                    name: "Arkaki",
+                    url: "https://arkaki.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
             image: require("./assets/images/herbis.png"),
             projectName: "Herbismagicum",
-            projectDesc: "Created the website from start to finish singlehandedly and mate the business up and running.",
+            projectDesc: "Created the website from start to finish singlehandedly and mate the business up and running with its online course work publication.",
             footerLink: [{
                     name: "Herbismagicum",
                     url: "https://herbismagicum.com/"
