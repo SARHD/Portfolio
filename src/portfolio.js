@@ -23,7 +23,7 @@ const greeting = {
     username: "Ali Raza Haider",
     title: "Hi all, I'm Ali Raza",
     subTitle: emoji(
-        "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Wordpress Shopify, PHP, Laravel, JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+        "A passionate Full Stack Software Developer 🚀 having more than 7 years of experience in building Web applications with Wordpress Shopify, PHP, Laravel, JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
     ),
     resumeLink: "https://drive.google.com/file/d/1rUNbyW37sCxJZJ0VO4iTFEzrViP2q0Id/view?usp=sharing", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
     skills: [
         emoji(
             "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -113,6 +113,10 @@ https://fontawesome.com/icons?d=gallery */
         {
             skillName: "docker",
             fontAwesomeClassname: "fab fa-docker"
+        },
+        {
+            skillName: "Wordpress",
+            fontAwesomeClassname: "fab fa-wordpress"
         }
     ],
     display: true // Set false to hide this section, defaults to true
