@@ -63,15 +63,15 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [{
-            skillName: "html-5",
+            skillName: "HTML",
             fontAwesomeClassname: "fab fa-html5"
         },
         {
-            skillName: "css3",
+            skillName: "CSS",
             fontAwesomeClassname: "fab fa-css3-alt"
         },
         {
-            skillName: "sass",
+            skillName: "SASS",
             fontAwesomeClassname: "fab fa-sass"
         },
         {
@@ -79,44 +79,60 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-js"
         },
         {
-            skillName: "reactjs",
+            skillName: "Reactjs",
             fontAwesomeClassname: "fab fa-react"
         },
         {
-            skillName: "nodejs",
+            skillName: "Nodejs",
             fontAwesomeClassname: "fab fa-node"
         },
         {
-            skillName: "swift",
+            skillName: "Swift",
             fontAwesomeClassname: "fab fa-swift"
         },
         {
-            skillName: "npm",
+            skillName: "Npm",
             fontAwesomeClassname: "fab fa-npm"
         },
         {
-            skillName: "sql-database",
+            skillName: "Express",
+            fontAwesomeClassname: "fab fa-express"
+        },
+        {
+            skillName: "EJS",
+            fontAwesomeClassname: "fab fa-ejs"
+        },
+        {
+            skillName: "SQL",
             fontAwesomeClassname: "fas fa-database"
         },
         {
-            skillName: "aws",
+            skillName: "AWS",
             fontAwesomeClassname: "fab fa-aws"
         },
         {
-            skillName: "firebase",
+            skillName: "Firebase",
             fontAwesomeClassname: "fas fa-fire"
         },
         {
-            skillName: "python",
+            skillName: "Python",
             fontAwesomeClassname: "fab fa-python"
         },
         {
-            skillName: "docker",
+            skillName: "Docker",
             fontAwesomeClassname: "fab fa-docker"
         },
         {
             skillName: "Wordpress",
             fontAwesomeClassname: "fab fa-wordpress"
+        },
+        {
+            skillName: "Shopify",
+            fontAwesomeClassname: "fab fa-shopify"
+        },
+        {
+            skillName: "Speed Optmization",
+            fontAwesomeClassname: "fab fa-google"
         }
     ],
     display: true // Set false to hide this section, defaults to true
