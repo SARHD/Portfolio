@@ -212,9 +212,9 @@ const workExperiences = {
             companylogo: require("./assets/images/barontech.webp"),
             date: "June 2021 – Present",
             desc: "Worked with team on multiple projects and worked on B2B projects individually. Collaborated with teams to deliver efficient web applications. Worked on multiple C2C projects.",
-            descBullets: [
-                "Took Technical (Front-End) Assessments and Interviews for the Company for international B2B and C2C project gain."
-            ]
+            // descBullets: [
+            //     "Took Technical (Front-End) Assessments and Interviews for the Company for international B2B and C2C project gain."
+            // ]
         },
         {
             role: "Website Developer",
