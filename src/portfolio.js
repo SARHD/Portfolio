@@ -202,7 +202,7 @@ const workExperiences = {
         {
             role: "Full-Stack Developer",
             company: "Astute Solutions",
-            companylogo: require("./assets/images/astute-logo.png"),
+            companylogo: require("./assets/images/astute.jpg"),
             date: "September 2023 – September 2024",
             desc: "Created full-stack solutions for diverse projects. Collaborated with teams to deliver efficient web applications. Worked on multiple international projects simultaneously."
         },
