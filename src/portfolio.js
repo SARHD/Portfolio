@@ -319,6 +319,116 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "wegrow",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "wegrow",
+                    url: "https://www.wegrow.design/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "yabie",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "yabie",
+                    url: "https://yabie.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "palmbeachtan",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "palmbeachtan",
+                    url: "https://palmbeachtan.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "redtone",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "redtone",
+                    url: "https://www.redtone.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "kennystevensteam",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "kennystevensteam",
+                    url: "https://kennystevensteam.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "fruitful",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "fruitful",
+                    url: "https://www.fruitful.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "pilotthomas",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "pilotthomas",
+                    url: "https://www.pilotthomas.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "chupi",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "chupi",
+                    url: "https://www.chupi.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "prestashop",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "prestashop",
+                    url: "https://prestashop.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "pilotthomas",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "pilotthomas",
+                    url: "https://www.pilotthomas.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/dk_logo.webp"),
+            projectName: "pilotthomas",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
+            footerLink: [{
+                    name: "pilotthomas",
+                    url: "https://www.pilotthomas.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
             image: require("./assets/images/bloomspace.webp"),
             projectName: "Bloomspace warehouse",
             projectDesc: "Created the website from start to finish singlehandedly and mate the business up and running.",
