@@ -271,7 +271,7 @@ const bigProjects = {
     projects: [{
             image: require("./assets/images/dk_logo.webp"),
             projectName: "Dk-Indeklima",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            projectDesc: " sit ameLorem ipsum dolort, consectetur adipiscing elit",
             footerLink: [{
                     name: "Visit Website",
                     url: "http://sk-indeklima.dk/"
