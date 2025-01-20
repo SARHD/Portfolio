@@ -303,23 +303,53 @@ const bigProjects = {
     title: "Recent Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [{
+        image: require("./assets/images/gwadar-logo.png"),
+        projectName: "Broadway City UK",
+        projectDesc: "Worked as the Lead Website Developer and managed company website development from scratch in custom theme and plugin creation.",
+        footerLink: [{
+                name: "Broadway City UK",
+                url: "https://broadwaycity.co.uk/"
+            }
+            //  you can add extra buttons here.
+        ]
+    },{
             image: require("./assets/images/dk_logo.webp"),
             projectName: "Dk-Indeklima",
-            projectDesc: " sit ameLorem ipsum dolort, consectetur adipiscing elit",
+            projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "Visit Website",
+                    name: "DK-Indeklima",
                     url: "http://sk-indeklima.dk/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/herbis.png"),
+            projectName: "Bloomspace warehouse",
+            projectDesc: "Created the website from start to finish singlehandedly and mate the business up and running.",
+            footerLink: [{
+                    name: "Bloomspace warehouse",
+                    url: "https://bloomspacewarehouse.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },{
+            image: require("./assets/images/herbis.png"),
+            projectName: "Herbismagicum",
+            projectDesc: "Created the website from start to finish singlehandedly and mate the business up and running.",
+            footerLink: [{
+                    name: "Herbismagicum",
+                    url: "https://herbismagicum.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/adventurecrews.png"),
+            projectName: "The Adventure Crews",
+            projectDesc: "Worked as website developer for the brand and added customization to get the required outcome that the client desired.",
             footerLink: [{
-                name: "Visit Website",
-                url: "http://nextu.se/"
+                name: "The Adventure Crews",
+                url: "https://theadventurecrews.com/"
             }]
         }
     ],
