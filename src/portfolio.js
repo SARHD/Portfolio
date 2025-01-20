@@ -238,6 +238,13 @@ const workExperiences = {
         },
         {
             role: "Website Developer",
+            company: "Dk-Indeklima",
+            companylogo: require("./assets/images/dk_logo.webp"),
+            date: "November 2022 – December 2024",
+            desc: "Help team in building the store functionality. Enhanced website functionalities for improved user engagement."
+        },
+        {
+            role: "Website Developer",
             company: "Inovation.io",
             companylogo: require("./assets/images/innovationio.png"),
             date: "September 2020 – October 2021",
@@ -248,6 +255,13 @@ const workExperiences = {
             company: "Pixtor",
             companylogo: require("./assets/images/pixtor.png"),
             date: "March 2019 – September 2020",
+            desc: "Gained hands-on experience with CMS platforms and dynamic coding. Worked with SQL and CodeIgniter for CRUD operations."
+        },
+        {
+            role: "Website Developer",
+            company: "Sojo Realty",
+            companylogo: require("./assets/images/sojo.png"),
+            date: "June 2021 – December 2021",
             desc: "Gained hands-on experience with CMS platforms and dynamic coding. Worked with SQL and CodeIgniter for CRUD operations."
         },
         {
