@@ -258,7 +258,7 @@ const workExperiences = {
             company: "Sojo Realty",
             companylogo: require("./assets/images/sojo.png"),
             date: "June 2021 – December 2021",
-            desc: "Gained hands-on experience with CMS platforms and dynamic coding. Worked with SQL and CodeIgniter for CRUD operations."
+            desc: "Worked with company as lead software developer and created website with Wordpress and added functionality of MLS and IDX"
         },
         {
             role: "Website Developer",
@@ -279,7 +279,7 @@ const workExperiences = {
             company: "MashTech GAMES",
             companylogo: require("./assets/images/mashtech.png"),
             date: "June 2017 – September 2017",
-            desc: "Co-founder and Website developer at Company"
+            desc: "Intern at the company for Game Development with unity3D"
         }
     ]
 };
@@ -319,7 +319,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/wegrow.avif"),
             projectName: "wegrow",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -329,7 +329,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/yabie.svg"),
             projectName: "yabie",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -339,7 +339,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/palmbeach.svg"),
             projectName: "palmbeachtan",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -349,7 +349,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/REDtone.png"),
             projectName: "redtone",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -359,7 +359,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/kenny.svg"),
             projectName: "kennystevensteam",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -369,7 +369,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/fruitful.jpeg"),
             projectName: "fruitful",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -379,7 +379,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/piot.png"),
             projectName: "pilotthomas",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -389,7 +389,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/chupi.svg"),
             projectName: "chupi",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
