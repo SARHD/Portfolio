@@ -329,7 +329,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/yabie.svg"),
+            image: require("./assets/images/yabie.png"),
             projectName: "Yabie",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -339,7 +339,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/palmbeach.svg"),
+            image: require("./assets/images/palmbeach.png"),
             projectName: "Palmbeachtan",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -359,7 +359,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/kenny.svg"),
+            image: require("./assets/images/kenny.png"),
             projectName: "Kennystevensteam",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -389,7 +389,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/chupi.svg"),
+            image: require("./assets/images/chupi.png"),
             projectName: "Chupi",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -399,7 +399,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/prestashop.svg"),
+            image: require("./assets/images/prestashop.png"),
             projectName: "Prestashop",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -449,7 +449,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/ARKAKI.svg"),
+            image: require("./assets/images/ARKAKI.png"),
             projectName: "Arkaki",
             projectDesc: "Assisted in helping this website get better results on speed optmization and fix website design layout and addded new functionality to the existing site added some extra security features to the site.",
             footerLink: [{
