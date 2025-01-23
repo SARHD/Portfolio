@@ -399,7 +399,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/prestashop.svg"),
             projectName: "Prestashop",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -419,7 +419,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
+            image: require("./assets/images/nordic.png"),
             projectName: "NordicNesting",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
@@ -439,7 +439,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/bloomspace.webp"),
+            image: require("./assets/images/DYIMS.png"),
             projectName: "DYIMS",
             projectDesc: "Created the educationl managment system with its Moodle and cericulam and course enrolment services.",
             footerLink: [{
@@ -449,7 +449,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/herbis.png"),
+            image: require("./assets/images/ARKAKI.svg"),
             projectName: "Arkaki",
             projectDesc: "Assisted in helping this website get better results on speed optmization and fix website design layout and addded new functionality to the existing site added some extra security features to the site.",
             footerLink: [{
