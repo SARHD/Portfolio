@@ -379,12 +379,12 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/piot.png"),
-            projectName: "Pilotthomas",
+            image: require("./assets/images/lifestyle.png"),
+            projectName: "Lifestylenationapp",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "Pilotthomas",
-                    url: "https://www.pilotthomas.com/"
+                    name: "Lifestylenationapp",
+                    url: "https://www.lifestylenationapp.com/"
                 }
                 //  you can add extra buttons here.
             ]
