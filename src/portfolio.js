@@ -36,7 +36,7 @@ const socialMediaLinks = {
     linkedin: "https://www.linkedin.com/in/ali-raza-haider-69a901208/",
     gmail: "razaalihaider703@gmail.com",
     gitlab: "https://gitlab.com/razaalihaider703",
-    facebook: "#",
+    facebook: "https://www.facebook.com/ali.raxa.79/",
     medium: "#",
     stackoverflow: "https://stackoverflow.com/users/28311500/ali-raza",
     // Instagram, Twitter and Kaggle are also supported in the links!
