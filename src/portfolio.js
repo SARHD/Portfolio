@@ -320,111 +320,111 @@ const bigProjects = {
             ]
         },{
             image: require("./assets/images/wegrow.avif"),
-            projectName: "wegrow",
+            projectName: "Wegrow",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "wegrow",
+                    name: "Wegrow",
                     url: "https://www.wegrow.design/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/yabie.svg"),
-            projectName: "yabie",
+            projectName: "Yabie",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "yabie",
+                    name: "Yabie",
                     url: "https://yabie.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/palmbeach.svg"),
-            projectName: "palmbeachtan",
+            projectName: "Palmbeachtan",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "palmbeachtan",
+                    name: "Palmbeachtan",
                     url: "https://palmbeachtan.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/REDtone.png"),
-            projectName: "redtone",
+            projectName: "Redtone",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "redtone",
+                    name: "Redtone",
                     url: "https://www.redtone.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/kenny.svg"),
-            projectName: "kennystevensteam",
+            projectName: "Kennystevensteam",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "kennystevensteam",
+                    name: "Kennystevensteam",
                     url: "https://kennystevensteam.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/fruitful.jpeg"),
-            projectName: "fruitful",
+            projectName: "Fruitful",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "fruitful",
+                    name: "Fruitful",
                     url: "https://www.fruitful.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/piot.png"),
-            projectName: "pilotthomas",
+            projectName: "Pilotthomas",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "pilotthomas",
+                    name: "Pilotthomas",
                     url: "https://www.pilotthomas.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/chupi.svg"),
-            projectName: "chupi",
+            projectName: "Chupi",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "chupi",
+                    name: "Chupi",
                     url: "https://www.chupi.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/dk_logo.webp"),
-            projectName: "prestashop",
+            projectName: "Prestashop",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "prestashop",
+                    name: "Prestashop",
                     url: "https://prestashop.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
-            image: require("./assets/images/dk_logo.webp"),
-            projectName: "pilotthomas",
+            image: require("./assets/images/piot.png"),
+            projectName: "Pilotthomas",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "pilotthomas",
+                    name: "Pilotthomas",
                     url: "https://www.pilotthomas.com/"
                 }
                 //  you can add extra buttons here.
             ]
         },{
             image: require("./assets/images/dk_logo.webp"),
-            projectName: "pilotthomas",
+            projectName: "NordicNesting",
             projectDesc: "Played a viatl role in website development life cycle and added new innovative ways for website enhancement and uprising.",
             footerLink: [{
-                    name: "pilotthomas",
-                    url: "https://www.pilotthomas.com/"
+                    name: "Nordic Nesting",
+                    url: "https://nordicnesting.dk"
                 }
                 //  you can add extra buttons here.
             ]
