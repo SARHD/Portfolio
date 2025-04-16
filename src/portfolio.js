@@ -599,7 +599,7 @@ const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
     number: "+92-3200471267",
-    email_address: "razaalihaider703@gamil.com"
+    email_address: "officialaliraza689@gmail.com"
 };
 
 // Twitter Section
