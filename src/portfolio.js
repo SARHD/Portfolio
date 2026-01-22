@@ -210,6 +210,13 @@ const workExperiences = {
     experience: [
         {
             role: "Website Developer",
+            company: "Softnet Solutions",
+            companylogo: require("./assets/images/softnet.png"),
+            date: "January 2025 - Present",
+            desc: "Worked as a website developer and managed the website development from scratch in custom theme and plugin creation."
+        },
+        {
+            role: "Website Developer",
             company: "Broadway City UK",
             companylogo: require("./assets/images/gwadar-logo.png"),
             date: "September 2024 – January 2025",
