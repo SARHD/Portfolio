@@ -210,7 +210,7 @@ const workExperiences = {
     experience: [
         {
             role: "Website Developer",
-            company: "Broadway City Gwadar",
+            company: "Broadway City UK",
             companylogo: require("./assets/images/gwadar-logo.png"),
             date: "September 2024 – January 2025",
             desc: "Developing and maintaining robust and scalable websites. Ensuring seamless performance of websites through testing and optimization. Custom theme and plugin development and functionality manipulation."
