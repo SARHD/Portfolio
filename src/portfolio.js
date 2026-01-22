@@ -211,7 +211,7 @@ const workExperiences = {
         {
             role: "Website Developer",
             company: "Softnet Solutions",
-            companylogo: require("./assets/images/softnet.png"),
+            companylogo: require("./assets/images/softnet.jfif"),
             date: "January 2025 - Present",
             desc: "Worked as a website developer and managed the website development from scratch in custom theme and plugin creation."
         },
