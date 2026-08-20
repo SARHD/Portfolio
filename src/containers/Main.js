@@ -267,7 +267,7 @@ const Main = () => {
       </section>
 
       <footer>
-        <p>// DESIGNED &amp; BUILT BY ALI RAZA &mdash; 2026</p>
+        <p>{"// DESIGNED & BUILT BY ALI RAZA — 2026"}</p>
       </footer>
     </div>
   );
