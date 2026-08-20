@@ -279,7 +279,7 @@
   .reveal.in { opacity: 1; transform: none; }
 
   @media (max-width: 480px) {
-    .hero-headline { font-size: clamp(36px, 12vw, 52px); }
+    .hero-headline { font-size: clamp(33px, 9vw, 52px); }
     .blob-1 { width: 180px; height: 180px; opacity: 0.5; }
     .blob-2 { width: 100px; height: 100px; opacity: 0.5; }
     .contact-hero { padding: 48px 24px; }
