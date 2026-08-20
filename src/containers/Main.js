@@ -61,13 +61,34 @@ function useBarReveal() {
   return ref;
 }
 
-const accentColors = [
-  "var(--yellow)",
-  "var(--coral)",
-  "var(--blue)",
-  "var(--lime)",
-  "var(--purple)"
-];
+function getFaviconUrl(url) {
+  try {
+    const hostname = new URL(url).hostname;
+    return `https://www.google.com/s2/favicons?domain=${hostname}&sz=128`;
+  } catch {
+    return null;
+  }
+}
+
+function ProjectLogo({project}) {
+  const url = project.footerLink?.[0]?.url;
+  const [src, setSrc] = React.useState(project.image || (url ? getFaviconUrl(url) : null));
+
+  if (!src) return null;
+
+  return (
+    <img
+      className="proj-logo"
+      src={src}
+      alt={`${project.projectName} logo`}
+      onError={() => {
+        if (url && src !== getFaviconUrl(url)) {
+          setSrc(getFaviconUrl(url));
+        }
+      }}
+    />
+  );
+}
 
 const Main = () => {
   const mainRef = useReveal();
@@ -111,7 +132,7 @@ const Main = () => {
             <span className="line"><span className="outline">PRODUCTS.</span></span>
           </h1>
           <div className="hero-sub">
-            <p>Ali Raza &mdash; 7+ years shipping WordPress, WooCommerce, Laravel and React/Node builds for real businesses that need things to just work.</p>
+            <p>Ali Raza &mdash; 5+ years shipping WordPress, WooCommerce, Laravel and React/Node builds for real businesses that need things to just work.</p>
             <div className="hero-actions">
               <a href="#work" className="btn btn-lime">See the work &darr;</a>
               <a href={greeting.resumeLink} className="btn btn-paper" target="_blank" rel="noopener noreferrer">See my resume &darr;</a>
@@ -149,11 +170,16 @@ const Main = () => {
           <div className="section-label reveal"><div className="num-badge">01</div><span className="tag">What I Do</span></div>
           <h2 className="section-title reveal">One developer, the whole stack.</h2>
           <p className="section-desc reveal">From a design file to a live checkout &mdash; I cover the frontend, the backend, and the messy integration work in between.</p>
-          <div className="service-field">
-            <div className="sticker s1 reveal"><span className="mark">&#9639;</span><h3>Interactive Frontends</h3><p>React &amp; JS interfaces people actually enjoy clicking through.</p></div>
-            <div className="sticker s2 reveal"><span className="mark">&#9643;</span><h3>WordPress &amp; Woo</h3><p>Custom themes and store builds that survive real traffic.</p></div>
-            <div className="sticker s3 reveal"><span className="mark">&#8961;</span><h3>APIs &amp; Integrations</h3><p>Laravel/PHP services wired cleanly to payments &amp; shipping.</p></div>
-            <div className="sticker s4 reveal"><span className="mark">&#10039;</span><h3>Speed &amp; SEO</h3><p>Core Web Vitals, hosting, and technical SEO that moves rankings.</p></div>
+          <div className="about-layout">
+            <div className="service-field">
+              <div className="sticker s1 reveal"><span className="mark">&#9639;</span><h3>Interactive Frontends</h3><p>React &amp; JS interfaces people actually enjoy clicking through.</p></div>
+              <div className="sticker s2 reveal"><span className="mark">&#9643;</span><h3>WordPress &amp; Woo</h3><p>Custom themes and store builds that survive real traffic.</p></div>
+              <div className="sticker s3 reveal"><span className="mark">&#8961;</span><h3>APIs &amp; Integrations</h3><p>Laravel/PHP services wired cleanly to payments &amp; shipping.</p></div>
+              <div className="sticker s4 reveal"><span className="mark">&#10039;</span><h3>Speed &amp; SEO</h3><p>Core Web Vitals, hosting, and technical SEO that moves rankings.</p></div>
+            </div>
+            <div className="profile-photo reveal">
+              <img src={greeting.profileImage} alt={greeting.username} />
+            </div>
           </div>
         </div>
       </section>
@@ -206,7 +232,9 @@ const Main = () => {
           <div className="project-collage">
             {projects.map((proj, i) => (
               <div className="proj-card reveal" key={i}>
-                <div className="proj-swatch" style={{background: accentColors[i % accentColors.length]}}></div>
+                <div className="proj-swatch">
+                  <ProjectLogo project={proj} />
+                </div>
                 <span className="tag">{proj.projectName}</span>
                 <h3 style={{marginTop: "14px"}}>{proj.projectName}</h3>
                 <p>{proj.projectDesc}</p>
@@ -255,7 +283,19 @@ const Main = () => {
             <p>Got a project that needs a developer who ships? I usually reply within a day.</p>
             <div className="hero-actions contact-actions">
               <a href={`mailto:${contactInfo.email_address}`} className="btn btn-lime" style={{color: "var(--ink)"}}>Start a conversation &rarr;</a>
-              <a href={greeting.resumeLink} className="btn btn-paper" target="_blank" rel="noopener noreferrer">See my resume &darr;</a>
+              <a href={greeting.resumeLink} className="btn btn-paper" target="_blank" rel="noopener noreferrer" style={{color: "var(--ink)"}}>See my resume &darr;</a>
+              <a
+                href={`https://wa.me/${contactInfo.number.replace(/[^\d]/g, "")}`}
+                className="btn btn-whatsapp"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Chat on WhatsApp"
+              >
+                <svg className="whatsapp-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                WhatsApp
+              </a>
             </div>
             <div className="contact-info">
               <a href={`tel:${contactInfo.number.replace(/-/g, "")}`}>{contactInfo.number}</a>
